@@ -14,6 +14,66 @@
         "info": ""
     },
     {
+        "id": "7e4174fc.20088c",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4beea7c.6ee8a58",
+        "type": "subflow",
+        "name": "Parser 1",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "5ed5dc1c.9dd674"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 240,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "4beea7c.6ee8a58",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 240,
+                "y": 340,
+                "wires": [
+                    {
+                        "id": "4beea7c.6ee8a58",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 240,
+                "y": 420,
+                "wires": [
+                    {
+                        "id": "4beea7c.6ee8a58",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "49245013.f24aa",
         "type": "inject",
         "z": "e638858a.20b518",
@@ -101,6 +161,22 @@
         "statusType": "auto",
         "x": 440,
         "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5ed5dc1c.9dd674",
+        "type": "debug",
+        "z": "4beea7c.6ee8a58",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 270,
+        "y": 200,
         "wires": []
     }
 ]
